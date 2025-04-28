@@ -1,0 +1,23 @@
+{
+    "name": "jaimecx/http-status",
+    "description": "Minimalist HTTP status codes library for PHP applications.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jaime Cruz",
+            "email": "hello@jaimecx.com",
+            "homepage": "https://jaimecx.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jaimecx\\Http\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4"
+    }
+}
